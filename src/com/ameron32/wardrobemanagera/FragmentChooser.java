@@ -15,4 +15,17 @@ public class FragmentChooser {
       return new BasicsFragment();
     }
   }
+  
+  static String getTitleByPosition(int position) {
+    switch (position) {
+    case 0:
+      return "Basics";
+    case 1:
+      return "Tags";
+    
+    default:
+      return "none";
+    }
+  }
+
 }

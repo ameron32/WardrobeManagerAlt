@@ -117,8 +117,7 @@ public class AddItemActivity extends FragmentActivity implements ActionBar.TabLi
     @Override
     public CharSequence getPageTitle(int position) {
 
-      // TODO: Override page title???
-      return super.getPageTitle(position);
+      return FragmentChooser.getTitleByPosition(position);
     }
     
     
